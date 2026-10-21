@@ -22,7 +22,7 @@ macos, swift, swiftui, appkit, notes, sticky-notes, screenshots, productivity, l
 
 项目基于 Tendedero 二次开发，采用独立品牌并保留上游署名。现在提供 Apple Silicon / macOS 14+ 的 0.5.0；尚未经过 Apple 公证。
 
-源码与下载：https://github.com/LeeYH95/shipian
+源码与下载：https://github.com/LeeYH95/withinsight
 
 ## 配图顺序
 

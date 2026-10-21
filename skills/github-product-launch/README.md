@@ -6,12 +6,12 @@
 
 把仓库交给你的 Agent：
 
-> 请安装 https://github.com/LeeYH95/shipian 中的 github-product-launch Skill。
+> 请安装 https://github.com/LeeYH95/withinsight 中的 github-product-launch Skill。
 
 也可手动将本目录复制到宿主支持的 Skill 目录。支持通用 Agent Skill 目录结构的安装器可使用：
 
 ```sh
-npx skills add LeeYH95/shipian --skill github-product-launch
+npx skills add LeeYH95/withinsight --skill github-product-launch
 ```
 
 安装器需要 Node.js；Skill 的检查脚本本身只需要 Python 3.10+。无需额外配置，不保存账号或密钥。执行远程发布时复用当前环境安全的 GitHub 登录。

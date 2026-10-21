@@ -81,8 +81,8 @@
 需要 macOS 14 或更新系统、Swift 5.9 或更新工具链（Xcode / Command Line Tools）、Python 3 和 `ripgrep`（UI 验收脚本使用）。
 
 ```sh
-git clone https://github.com/LeeYH95/shipian.git
-cd shipian
+git clone https://github.com/LeeYH95/withinsight.git
+cd withinsight
 scripts/build-release.sh
 open 'build/shipian-release/拾片.app'
 ```

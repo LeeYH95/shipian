@@ -90,4 +90,4 @@ narrativeRole: 展示适合长期使用的安静外观，并给出获取入口�
 keyMessage: 留住眼前，接着想。
 Scene 0–2s: 石墨底色与深色真实界面，标题“白天与夜里，都安静”。
 Scene 2–5s: 出现“本地保存 · macOS 原生 · 开源”。
-Scene 5–8s: 拾片夜间图标和“github.com/LeeYH95/shipian”收尾，标明“0.5.0 版本 · macOS 14+ · Apple Silicon”。
+Scene 5–8s: 拾片夜间图标和“github.com/LeeYH95/withinsight”收尾，标明“0.5.0 版本 · macOS 14+ · Apple Silicon”。
