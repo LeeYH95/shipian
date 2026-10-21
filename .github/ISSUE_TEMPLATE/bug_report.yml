@@ -1,0 +1,23 @@
+name: 问题反馈
+description: 报告拾片使用中可复现的问题
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本与 macOS 版本
+      placeholder: "拾片 0.5.0 (6) / macOS ... / Apple Silicon"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请说明操作顺序、实际结果和预期结果。截图前请遮挡个人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 补充信息
+      description: 可附截图；请勿上传个人笔记目录、密钥或包含隐私的完整日志。

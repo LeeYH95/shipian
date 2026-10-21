@@ -1,0 +1,192 @@
+{
+  "product": {
+    "name": "拾片 Shipian",
+    "summary": "把截图与灵感，挂在眼前。",
+    "repository": "https://github.com/LeeYH95/shipian"
+  },
+  "claims": [
+    {
+      "text": "截图与便笺共享挂绳、夹子和摆动",
+      "evidence": [
+        "Sources/Tendedero/PeggedView.swift",
+        "Sources/Tendedero/HangingSwing.swift",
+        "Sources/Tendedero/LineView.swift"
+      ]
+    },
+    {
+      "text": "文字、待办、图片与附件，本地自动保存",
+      "evidence": [
+        "Sources/NotesCore/NoteDocument.swift",
+        "Sources/NotesCore/NotesStore.swift",
+        "Sources/Tendedero/NoteEditorView.swift"
+      ]
+    },
+    {
+      "text": "便笺库支持搜索、分类和排序",
+      "evidence": [
+        "Sources/Tendedero/NotesLibraryView.swift"
+      ]
+    },
+    {
+      "text": "Markdown 及附件导出、取下、删除和恢复",
+      "evidence": [
+        "Sources/NotesCore/NotesStore.swift",
+        "Sources/Tendedero/NotesWorkspace.swift"
+      ]
+    },
+    {
+      "text": "六种纸色、深浅外观和减少动态",
+      "evidence": [
+        "Sources/Tendedero/NotesTheme.swift",
+        "Sources/Tendedero/NotesSettingsView.swift"
+      ]
+    },
+    {
+      "text": "应用内日夜图标；Finder 使用浅色",
+      "evidence": [
+        "Sources/Tendedero/NotesAppIcon.swift",
+        "scripts/build-dev-app.sh"
+      ]
+    },
+    {
+      "text": "当前版本0.5.0、本地签名、最低macOS14",
+      "evidence": [
+        "scripts/build-shipian-test-app.sh",
+        "scripts/build-dev-app.sh"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "docs/media/banner.png",
+      "role": "banner",
+      "origin": "composition",
+      "source": "marketing/source/visuals.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "path": "docs/media/social-preview.png",
+      "role": "social-preview",
+      "origin": "composition",
+      "source": "marketing/source/visuals.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1280,
+      "height": 640
+    },
+    {
+      "path": "docs/media/feature-notes.png",
+      "role": "feature",
+      "origin": "composition",
+      "source": "marketing/source/visuals.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "docs/media/feature-library.png",
+      "role": "feature",
+      "origin": "composition",
+      "source": "marketing/source/visuals.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "docs/media/feature-dark.png",
+      "role": "feature",
+      "origin": "composition",
+      "source": "marketing/source/visuals.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "path": "docs/media/video-poster.png",
+      "role": "video-poster",
+      "origin": "composition",
+      "source": "marketing/videos/shipian/index.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "docs/media/video-contact-sheet.png",
+      "role": "video-review",
+      "origin": "composition",
+      "source": "marketing/videos/shipian/index.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "path": "docs/media/rope-native.png",
+      "role": "screenshot",
+      "origin": "native-capture",
+      "source": "docs/launch/ASSETS.md",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1920,
+      "height": 246
+    },
+    {
+      "path": "docs/media/editor-light.png",
+      "role": "screenshot",
+      "origin": "native-capture",
+      "source": "docs/launch/ASSETS.md",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 920,
+      "height": 650
+    },
+    {
+      "path": "docs/media/editor-dark.png",
+      "role": "screenshot",
+      "origin": "native-capture",
+      "source": "docs/launch/ASSETS.md",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 920,
+      "height": 650
+    },
+    {
+      "path": "docs/media/library-light.png",
+      "role": "screenshot",
+      "origin": "native-capture",
+      "source": "docs/launch/ASSETS.md",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1080,
+      "height": 720
+    },
+    {
+      "path": "docs/media/icon-light.png",
+      "role": "app-icon",
+      "origin": "AI-assisted-original",
+      "source": "docs/launch/ASSETS.md",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "docs/media/icon-dark.png",
+      "role": "app-icon",
+      "origin": "AI-assisted-original",
+      "source": "docs/launch/ASSETS.md",
+      "rights": "project-created; upstream UI source under MIT; independent brand",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "docs/media/shipian-intro.mp4",
+      "role": "video",
+      "origin": "composition",
+      "source": "marketing/videos/shipian/index.html",
+      "rights": "project-created; upstream UI source under MIT; independent brand"
+    }
+  ],
+  "readmes": [
+    "README.md",
+    "skills/github-product-launch/README.md",
+    "marketing/videos/shipian/README.md",
+    "docs/launch/VIDEO.md"
+  ],
+  "max_asset_bytes": 25000000
+}

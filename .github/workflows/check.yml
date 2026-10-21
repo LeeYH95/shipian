@@ -1,0 +1,18 @@
+name: Source checks
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Swift tests
+        env:
+          CLANG_MODULE_CACHE_PATH: ${{ github.workspace }}/.build/ModuleCache
+          SWIFTPM_MODULECACHE_OVERRIDE: ${{ github.workspace }}/.build/ModuleCache
+        run: swift test --disable-sandbox
+      - name: Launch checker tests
+        run: python3 -m unittest discover -s skills/github-product-launch/tests
+      - name: Launch materials
+        run: python3 skills/github-product-launch/scripts/check_launch.py --root .

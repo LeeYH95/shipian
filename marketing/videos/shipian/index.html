@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #FCFDFF;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="32"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div
+        id="el-01-hang"
+        class="scene"
+        data-composition-id="01-hang"
+        data-composition-src="compositions/frames/01-hang.html"
+        data-start="0"
+        data-duration="8.5"
+        data-track-index="0"
+      ></div>
+
+      <div
+        id="el-02-notes"
+        class="scene"
+        data-composition-id="02-notes"
+        data-composition-src="compositions/frames/02-notes.html"
+        data-start="8"
+        data-duration="8.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-03-library"
+        class="scene"
+        data-composition-id="03-library"
+        data-composition-src="compositions/frames/03-library.html"
+        data-start="16"
+        data-duration="8.5"
+        data-track-index="0"
+      ></div>
+
+      <div
+        id="el-04-night"
+        class="scene"
+        data-composition-id="04-night"
+        data-composition-src="compositions/frames/04-night.html"
+        data-start="24"
+        data-duration="8"
+        data-track-index="1"
+      ></div>
+
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-hang", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 8);
+        tl.fromTo("#el-02-notes", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 8);
+        tl.to("#el-02-notes", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 16);
+        tl.fromTo("#el-03-library", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 16);
+        tl.to("#el-03-library", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 24);
+        tl.fromTo("#el-04-night", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 24);
+        tl.to({}, { duration: 32 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
+    </script>
+  <audio id="shipian-score" src="assets/score.mp3" data-start="0" data-duration="32" data-track-index="11" data-volume="0.8"></audio></body>
+</html>
