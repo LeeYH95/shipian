@@ -180,6 +180,15 @@
       "origin": "composition",
       "source": "marketing/videos/shipian/index.html",
       "rights": "project-created; upstream UI source under MIT; independent brand"
+    },
+    {
+      "path": "docs/media/shipian-preview.gif",
+      "role": "readme-animation",
+      "origin": "video-conversion",
+      "source": "docs/media/shipian-intro.mp4",
+      "rights": "project-created; same approved screenshots and film; no audio",
+      "width": 960,
+      "height": 540
     }
   ],
   "readmes": [

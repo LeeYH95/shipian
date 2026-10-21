@@ -14,9 +14,9 @@
 
 ## 先看它怎么用
 
-[![拾片产品介绍视频封面](docs/media/video-poster.png)](docs/media/shipian-intro.mp4)
+![拾片动态预览：截图挂绳、图文便笺、便笺库和深色外观](docs/media/shipian-preview.gif)
 
-[观看产品介绍 MP4](docs/media/shipian-intro.mp4) · [查看分镜与字幕](docs/launch/VIDEO.md)
+首页直接循环展示，无需下载。GIF 无声音；[下载完整介绍视频（MP4，含配乐）](../../releases/download/v0.5.0/shipian-intro.mp4) · [查看分镜与字幕](docs/launch/VIDEO.md)
 
 视频基于真实应用界面制作，使用虚构演示内容；画面运镜用于讲解产品，不作为实际动画流畅度测试。
 

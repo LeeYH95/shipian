@@ -5,6 +5,7 @@
 - `Sources/Tendedero/Resources/Demo/*.png`、`NoteAtmosphere.png`：本项目独立生成的画廊、建筑演示图与柔和背景。
 - Banner、三张功能图、社交预览：由 marketing/source/visuals.html 将上述图标与真实截图排版导出，没有替换截图内控件。
 - MP4、封面与视频检查拼图：marketing/videos/shipian 的源工程输出。视频是截图讲解动画，不是实时操作录屏。
+- `docs/media/shipian-preview.gif`：从同一份介绍视频转换的首页循环预览，保留完整 32 秒画面顺序；960×540、15 fps，无声音。通过 `scripts/make-readme-gif.sh` 重新生成，没有重新绘制产品界面。
 - 配乐：build-film.py 在本次制作中原创合成的和弦/钟琴音色，未使用第三方录音。
 - GSAP：官方 npm gsap@3.14.2，版权注释保留，适用 GSAP Standard License，参见视频源工程 README。项目根目录 MIT 许可不替代第三方库的许可。
 
