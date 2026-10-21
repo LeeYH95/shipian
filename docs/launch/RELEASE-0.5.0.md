@@ -15,6 +15,8 @@
 
 **要求 Apple Silicon、macOS 14 或更新系统。采用本地 ad hoc 签名，尚未通过 Apple 公证，下载后可能需要在系统设置中手动确认打开。**
 
+安装包已清理调试符号中残留的本机构建路径，重新签名并更新 SHA-256 校验和。应用功能、版本号和已有数据兼容方式保持一致。
+
 ## 数据与已知限制
 
 沿用已有应用身份 `local.linenotes.test`，数据位于 `~/Library/Application Support/LineNotes Test`；请勿同时运行旧版 LineNotes Test 和拾片。原版 Tendedero 不会被覆盖。

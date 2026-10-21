@@ -25,6 +25,10 @@ Finder 和未运行时的静态图标使用白天版，不宣称系统范围自�
 本机 ad hoc 签名，未进行 Apple 公证。其他 Mac 从互联网下载后，
 可能需要在系统设置中手动确认打开。
 TEXT
+# Remove debug symbols that retain absolute build-machine paths, then re-sign.
+xcrun strip -S "$notes_output/拾片.app/Contents/MacOS/LineNotes"
+python3 scripts/check-release-paths.py "$notes_output/拾片.app"
+codesign --force --deep --sign - "$notes_output/拾片.app"
 codesign --verify --deep --strict "$notes_output/拾片.app"
 ditto -c -k --sequesterRsrc --keepParent "$notes_output/拾片.app" "$notes_output/Shipian-0.5.0-arm64.zip"
 notes_stage="$(mktemp -d "$PWD/build/shipian-dmg-stage.XXXXXX")"
