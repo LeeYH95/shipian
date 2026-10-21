@@ -1,4 +1,4 @@
-# 拾片 0.5.0 (6) · 公开测试版
+# 拾片 0.5.0 (6)
 
 把截图与灵感，挂在眼前。
 
@@ -17,7 +17,7 @@
 
 ## 数据与已知限制
 
-沿用已有测试身份 `local.linenotes.test`，数据位于 `~/Library/Application Support/LineNotes Test`；请勿同时运行旧版 LineNotes Test 和拾片。原版 Tendedero 不会被覆盖。
+沿用已有应用身份 `local.linenotes.test`，数据位于 `~/Library/Application Support/LineNotes Test`；请勿同时运行旧版 LineNotes Test 和拾片。原版 Tendedero 不会被覆盖。
 
 当前没有账号、云同步、多端协作或 AI 功能；请自行备份本地数据。Intel 版本和跨设备长期压力验收尚未完成。
 

@@ -5,12 +5,12 @@
 <p align="center">
   <strong>拾片 Shipian</strong> · 把截图与灵感，挂在眼前。<br>
   macOS 原生 · 本地保存 · 开源<br><br>
-  <a href="../../releases">下载测试版</a> · <a href="#三步开始">三步开始</a> · <a href="#从源码构建">源码构建</a> · <a href="docs/launch/PRODUCT.md">完整产品介绍</a>
+  <a href="../../releases">下载 macOS 版</a> · <a href="#三步开始">三步开始</a> · <a href="#从源码构建">源码构建</a> · <a href="docs/launch/PRODUCT.md">完整产品介绍</a>
 </p>
 
 截图留下画面，便笺接住想法。拾片把两者挂在屏幕顶部的一条绳上：要用时展开，写完再收回。给喜欢的图补一句“为什么”，把临时想法写下来，或者留一张今天的待办，不必反复切换窗口。
 
-> 当前为 **0.5.0 测试版**。提供 Apple Silicon（arm64）安装包，最低 macOS 14。采用本地 ad hoc 签名，**尚未经过 Apple 公证**；从互联网下载后，其他 Mac 可能需要在系统设置中手动确认打开。
+> 当前为 **0.5.0**。提供 Apple Silicon（arm64）安装包，最低 macOS 14。采用本地 ad hoc 签名，**尚未经过 Apple 公证**；从互联网下载后，其他 Mac 可能需要在系统设置中手动确认打开。
 
 ## 先看它怎么用
 
@@ -72,7 +72,7 @@
 
 ## 数据与当前边界
 
-便笺及附件副本保存在 `~/Library/Application Support/LineNotes Test`。测试版保留这个目录名称，是为了继续读取已有测试数据。请勿同时运行旧版 LineNotes Test 和拾片。
+便笺及附件副本保存在 `~/Library/Application Support/LineNotes Test`。沿用这个数据目录名称，是为了继续读取已有数据。请勿同时运行旧版 LineNotes Test 和拾片。
 
 当前应用没有账号、云同步和协作服务。请自行备份本地数据目录。仓库中的演示图片与笔记不包含用户个人截图。当前提供的二进制仅在 Apple Silicon 上验收；Intel 编译和跨设备测试尚未完成，也没有 App Store 版本。
 
@@ -83,8 +83,8 @@
 ```sh
 git clone https://github.com/LeeYH95/shipian.git
 cd shipian
-scripts/build-shipian-test-app.sh
-open 'build/shipian-test-release/拾片.app'
+scripts/build-release.sh
+open 'build/shipian-release/拾片.app'
 ```
 
 构建脚本使用本机架构，不会自动生成通用二进制。应用输出到 `build/`，使用 ad hoc 签名。
@@ -98,7 +98,7 @@ SWIFTPM_MODULECACHE_OVERRIDE="$PWD/.build/ModuleCache" swift test --disable-sand
 Tests/NativeNotesUIHarness/run.sh
 
 # 独立演示数据，不扫描个人截图、不注册全局快捷键
-'build/shipian-test-release/拾片.app/Contents/MacOS/LineNotes' \
+'build/shipian-release/拾片.app/Contents/MacOS/LineNotes' \
   --demo --data-dir "$PWD/runtime/demo"
 ```
 

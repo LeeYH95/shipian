@@ -51,7 +51,7 @@
     {
       "text": "当前版本0.5.0、本地签名、最低macOS14",
       "evidence": [
-        "scripts/build-shipian-test-app.sh",
+        "scripts/build-release.sh",
         "scripts/build-dev-app.sh"
       ]
     }
