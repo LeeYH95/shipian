@@ -3,7 +3,7 @@
 </picture>
 
 <p align="center">
-  <strong>拾片 Shipian</strong> · 把截图与灵感，挂在眼前。<br>
+  <strong>拾片</strong> · 把截图与灵感，挂在眼前。<br>
   macOS 原生 · 本地保存 · 开源<br><br>
   <a href="../../releases">下载 macOS 版</a> · <a href="#三步开始">三步开始</a> · <a href="#从源码构建">源码构建</a> · <a href="docs/launch/PRODUCT.md">完整产品介绍</a>
 </p>
@@ -52,7 +52,7 @@
 
 ## 三步开始
 
-1. 从 [Releases](../../releases) 下载 `Shipian-0.5.0-arm64.dmg`，打开后将「拾片.app」拖到应用程序，或使用 ZIP 中的应用。
+1. 下载 [拾片 0.5.0 安装包（DMG）](../../releases/download/v0.5.0/Shipian-0.5.0-arm64.dmg)，打开后将「拾片.app」拖到应用程序，或使用 ZIP 中的应用。
 2. 启动后打开便笺库，新建文字、待办或图文便笺。写好后再挂上；新建自动挂上默认关闭。
 3. 在顶部挂绳中展开便笺继续编辑；暂时不用的内容取下后，仍可在便笺库找到。
 

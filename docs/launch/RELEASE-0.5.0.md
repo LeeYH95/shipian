@@ -8,10 +8,10 @@
 
 ## 安装
 
-- `Shipian-0.5.0-arm64.dmg`：打开后把拾片拖到应用程序。
-- `Shipian-0.5.0-arm64.zip`：解压后打开拾片.app。
+- [拾片 0.5.0 安装包（DMG）](https://github.com/LeeYH95/shipian/releases/download/v0.5.0/Shipian-0.5.0-arm64.dmg)：打开后把拾片拖到应用程序。
+- [拾片 0.5.0 压缩包（ZIP）](https://github.com/LeeYH95/shipian/releases/download/v0.5.0/Shipian-0.5.0-arm64.zip)：解压后打开拾片.app。
 - `SHA256SUMS.txt`：下载文件的 SHA-256 校验和。
-- `shipian-intro.mp4`：产品介绍视频。
+- [拾片 · 产品介绍视频](https://github.com/LeeYH95/shipian/releases/download/v0.5.0/shipian-intro.mp4)：产品介绍视频。
 
 **要求 Apple Silicon、macOS 14 或更新系统。采用本地 ad hoc 签名，尚未通过 Apple 公证，下载后可能需要在系统设置中手动确认打开。**
 

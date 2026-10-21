@@ -1,6 +1,6 @@
 # 来源与品牌
 
-拾片（Shipian）是基于 [Alejandro Buján 的 Tendedero](https://github.com/alejandrobujan/tendedero) 二次开发的独立项目。源码基线为 Tendedero v1.5.0，提交 `cf87e6ebc275d4f2cc42900e55f88a52d3ce9e46`。
+拾片是基于 [Alejandro Buján 的 Tendedero](https://github.com/alejandrobujan/tendedero) 二次开发的独立项目。源码基线为 Tendedero v1.5.0，提交 `cf87e6ebc275d4f2cc42900e55f88a52d3ce9e46`。
 
 上游贡献包括屏幕顶部挂绳、截图处理、夹子、摆动和主要截图交互。拾片在此基础上增加便笺数据模型、图文与清单编辑、附件、本地便笺库及相关界面与动效。
 

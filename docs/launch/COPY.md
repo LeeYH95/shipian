@@ -2,7 +2,7 @@
 
 ## GitHub About
 
-拾片 Shipian — 把截图与灵感，挂在眼前。macOS 原生截图挂绳与图文便笺工具。
+拾片 — 把截图与灵感，挂在眼前。macOS 原生截图挂绳与图文便笺工具。
 
 ## Topics
 
